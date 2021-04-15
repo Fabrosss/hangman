@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         updateimageview()
         val guess = findViewById<TextView>(R.id.guessTekst)
         guess.text = ""
-        val haslo = findViewById<TextView>(R.id.password)2
+        val haslo = findViewById<TextView>(R.id.password)//
         var hidden : String = ""
         for (i in 1.. word.length){
             hidden = hidden + "_"
